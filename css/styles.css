@@ -1,0 +1,31 @@
+body {
+    background-image: url('../images/bg.jpg'); /* URL de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.97); /* Fondo blanco con transparencia */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+}
