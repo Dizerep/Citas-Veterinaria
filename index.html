@@ -61,6 +61,29 @@
         <button id="buscarCitaBtn" class="btn btn-secondary mt-3">Buscar Cita por Nombre</button>
     </div>
 
+    <div class="container mt-5">
+        <h1 class="text-center">Citas Agendadas</h1>
+    
+        <!-- Tabla para mostrar citas -->
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>Propietario</th>
+                    <th>Mascota</th>
+                    <th>Tipo</th>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Motivo</th>
+                    <th>Teléfono</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="citasContainer">
+                <!-- Las citas se insertarán aquí -->
+            </tbody>
+        </table>
+    </div>
     <!-- Bootstrap 5 JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>

@@ -6,12 +6,12 @@ body {
     min-height: 100vh;
 }
 
-.container {
+.container, .container-lg {
     background-color: rgba(255, 255, 255, 0.97); /* Fondo blanco con transparencia */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
     margin-top: 50px;
 }
@@ -28,4 +28,19 @@ label {
 button {
     width: 100%;
     padding: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
 }
